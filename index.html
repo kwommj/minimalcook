@@ -16,6 +16,10 @@
             }
             .list{
                 border-right: 1px solid black;
+                width: 200px;
+                padding-left: 12px;
+                padding-top: 5px;
+
             }
             h2{
                 margin:0px;
@@ -27,9 +31,22 @@
                 grid-template-columns: 200px 1fr;
             }
             .con{
-                margin:5px;
-                padding-left:10px;
-                padding-right: 10px;
+                padding-left: 20px;
+                margin-left: 10px;
+                margin-top: 10px;
+                margin-right: 10px;
+                padding-top: 10px;
+            }
+            @media(max-width:600px){
+                #grid{
+                    display: block;
+                }
+                .list{
+                    border-right: none;
+                }
+                img{
+                    padding-top: 10px;
+                }
             }
         </style>
     </head>
@@ -50,6 +67,7 @@
             <li><a href="치킨마요.html" target="_blank">치킨마요</a></li>
         </div>
         <div class="con">
+            <img src="이미지1.jpeg" style="max-width: 100%; height: auto;">
             <p>하나부터 열까지 모든걸 혼자서 해야하는 자취생들에게 요리는 정말 어려운 과제 중 하나입니다. 
                 <br><br>그렇다고 매번 시켜먹고 사먹기엔 건강이 걱정되죠. 건강을 챙기면서도 간단하게 요리해먹을 수 있는 방법이 없을까? 생각한 끝에 온라인에 올라와있는 검증된 레시피들을 단순화해보았습니다. 
                 <br><br>그 결과 건강과 맛 그리고 편리함도 얻을 수 있게 되었습니다.
