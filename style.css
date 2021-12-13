@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+}
+.head{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top:20px;
+    margin: 0px;
+}
+.list{
+    border-right: 1px solid black;
+    width: 200px;
+    padding-left: 12px;
+    padding-top: 5px;
+
+}
+.lih2{
+    margin:0px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+.con{
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.conre{
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 4px;
+}
+@media(max-width:600px){
+    #grid{
+        display: block;
+    }
+    .list{
+        border-right: none;
+    }
+    img{
+        padding-top: 10px;
+    }
+}
